@@ -1,7 +1,7 @@
 name: faber_gift_playlist
 description: "Give your heart."
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -11,6 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.4.2
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.1.5
 
 
   cupertino_icons: ^1.0.8
